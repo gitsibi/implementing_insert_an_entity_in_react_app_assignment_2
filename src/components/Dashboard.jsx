@@ -30,12 +30,18 @@ const Dashboard = () => {
     },
     // Add more movie objects as needed
   ]);
-
+  
+  const handleClick=()=>{
+    navigate("/addmovie")
+  }
   return (
     <div className="dashboard">
       <header className="dashboard-header">
         <h1>Movie Collection</h1>
       </header>
+      <div>
+        <button className="bg-violet-300" onClick={handleClick}>Add Movie</button>
+      </div>
       <div className="movie-list">
         {movies.map((movie) => (
           <MovieCard key={movie.id} movie={movie} />
