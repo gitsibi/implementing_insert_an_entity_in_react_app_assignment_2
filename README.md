@@ -84,3 +84,6 @@ Add functionality to navigate to an "Add Movie" form. This task focuses exclusiv
 
 If your GitHub username is `johnDoe` and the repository name is `assignment-repo`, the submission link would look like this:  
 **`https://github.com/johnDoe/assignment-repo`**
+
+
+## Your task is to create a React component that fetches an existing item from an API and allows the user to update it. For example, if the item is a door with name: "Front Door", the user should be able to change it to name: "Main Door" and update it via an API request.
